@@ -20,9 +20,9 @@ body{
 
 
     nav{
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        /* margin: auto; */
+        margin: 0px 20px;
     }
     ul li{
         list-style: none;
@@ -53,10 +53,7 @@ body{
         font-size: 20px;
         font-weight: 600;
     }
-    /* .bar-icon{
-        display: none;
-        margin-left:400px;
-    } */
+
 .mobile{
     display: none;
 }
@@ -104,6 +101,9 @@ body{
         font-weight: 800;
         margin-bottom: 40px;
     }
+    .section-desc{
+        margin: 20px 0px;
+    }
 .section-parent{
     /* display: grid;
     grid-template-columns: repeat(3,1fr); */
@@ -128,16 +128,19 @@ body{
     background: linear-gradient(180deg, #F2E8FF,white);
 }
 .section-btn1{
-    margin: 20px;
+    
 color:#64C8FF;
+text-decoration: none;
 }
 .section-btn2{
 color: #F0AA00;
 margin: 20px;
+text-decoration: none;
 }
 .section-btn3{
 color: #8700FF;
 margin: 20px;
+text-decoration: none;
 }
 
 .section-title{
@@ -318,6 +321,10 @@ footer{
 .foot-3-title{
     font-weight: 800;
 }
+marquee{
+    font-size: 30px;
+    color: blue;
+}
 
 
 
@@ -333,7 +340,7 @@ footer{
             margin: 0px 10px;
         }
         .bar-icon{
-            margin-right: 10px;
+            margin-right: 20px;
             margin-top: -75px;
         }
         .banner{
@@ -383,6 +390,7 @@ footer{
             gap:20px;
         }
         .bottom-btn{
+           
             width: 50%;
             position: relative;
             left: 25%;
@@ -402,14 +410,21 @@ footer{
         .story-btn{
             width: 70%;
             height:70%;
-            margin-top:25px;
+            margin-top:28px;
+            font-size: 13px;
         }
         footer{
             display: grid;
             grid-template-columns: repeat(1,1fr);
         }
+        .footer1{
+            margin-left: 3%;
+        }
         .footer2{
-            margin-left:30%;
+            margin-left:20%;
+        }
+        .footer3{
+            margin-left: -10%;
         }
         .title{
             margin-left: -25%;
@@ -417,6 +432,7 @@ footer{
         .foot-3-title{
             margin-left:10%;
         }
+       
         .footer3 ul{
             display: flex;
             flex-direction: row;
